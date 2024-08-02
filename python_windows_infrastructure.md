@@ -4,7 +4,7 @@ If libraries have not been included yet, a comment saying so will be added.
 
 ## 1. Python intepreters
 
-Python intepreters are located here:
+Python interpreters are located here:
 - C:\Program Files\Python310
 - C:\Program Files\Python311
 - C:\Program Files\Python312
