@@ -2,53 +2,47 @@
 
 If libraries have not been included yet, a comment saying so will be added.
 
-## 1. Storage of Libraries
-
-Python libraries are stored here (hidden by companysecurity policies):
-- c:\users\inp\appdata\roaming\python\python310\site-packages
-- c:\users\inp\appdata\roaming\python\python311\site-packages
-- c:\users\inp\appdata\roaming\python\python312\site-packages
-
-## 2. Python intepreters
+## 1. Python intepreters
 
 Python intepreters are located here:
 - C:\Program Files\Python310
 - C:\Program Files\Python311
 - C:\Program Files\Python312
 
+## 2. Storage of Libraries
+
+Python libraries for the basic interpreters are stored here (hidden by company security policies):
+- c:\users\inp\appdata\roaming\python\python310\site-packages
+- c:\users\inp\appdata\roaming\python\python311\site-packages
+- c:\users\inp\appdata\roaming\python\python312\site-packages
+
 ## 3. Workflow
 
-Workflow for making environments for Python intepreters, example Python310:
-- F:\>C:
-- C:\>cd "C:\Program Files\Python310"
-- C:\Program Files\Python310>python -m venv C:\appl\my_env3.10.11
-- C:\Program Files\Python310>cd C:\appl\my_env3.10.11\Scripts
-- C:\Appl\my_env3.10.11\Scripts>activate
-- (my_env3.10.11) C:\Appl\my_env3.10.11\Scripts>cd "C:\Program Files\Python310"
-- (my_env3.10.11) C:\Program Files\Python310>python -m pip install --upgrade pip
-- (my_env3.10.11) C:\Program Files\Python310>pip install ipython numpy pandas jupyter notebook segyio matplotlib
+Workflow for making environments envxyz_CS_AI for Python interpreter Pythonxyz (xyz = 310, 311, 312):
+- "C:\Program Files\Pythonxyz\python" -m venv C:\Appl\envxyz_CS_AI
+- C:\Appl\envxyz_CS_AI\Scripts\activate
+- cd "C:\Program Files\Pythonxyz"
+- python -m pip install --upgrade pip
+- pip install list_of_libraries
 
 ## 4. Deactivate
-- cd "C:\Appl\my_env3.10.11\Scripts"
-- (my_env3.10.11) C:\Appl\my_env3.10.11\Scripts>deactivate
+- C:\Appl\env312_CA_AI\Scripts\deactivate
 
-## 5. Additional ML packages to be installed (5)
-- pip install jupyterlab catboost xgboost
-- pip install tensorflow keras
-- pip install torch torchvision torchaudio
+## 6. Libraries installed for various environments
 
-## 6. Other packages (20)
+### 6.1 envxyz_CS_AI (Artificial Intelligence)
+- pip install catboost keras openai pycaret pykan sketch tensorflow torch torchvision torchaudio xgboost
 
-### 6.1 CS_AI (5)
-- pip install openai polars pycaret pykan sketch 
+### 6.2 envxyz_CS_DA (Data Analysis)
+- pip install dtale giddy missingno numpy pandas pingouin polars pykrige ydata-profiling 
 
-### 6.2 Data analysis (6)
-- pip install dtale giddy missingno pingouin pykrige ydata-profiling 
+### 6.3 envxyz_CS_DV (Data Visualization)
+- pip install folium ipython jupyter notebook jupyterlab ipywidgets matplotlib seaborn streamlit sweetviz 
 
-### 6.3 Data visualization (5)
-- pip install folium ipywidgets seaborn streamlit sweetviz 
+### 6.3 envxyz_ES_GP (Geophysics)
+pip install segyio
 
-### 6.4 Finance
+### 6.4 envxyz_F (Finance)
 - pip install QuantLib Riskfolio-Lib skfolio yfinance
 
 ### 6.5 Fluid properties (2)
