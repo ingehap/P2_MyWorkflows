@@ -39,27 +39,39 @@ Workflow for making environments for Python intepreters, example Python310:
 
 ## 6. Other packages (20)
 
-### 6.0 AI (1)
-- pip install sketch 
+### 6.1 CS_AI (5)
+- pip install openai polars pycaret pykan sketch 
 
-### 6.1 Data analysis (6)
+### 6.2 Data analysis (6)
 - pip install dtale giddy missingno pingouin pykrige ydata-profiling 
 
-### 6.2 Data visualization (5)
+### 6.3 Data visualization (5)
 - pip install folium ipywidgets seaborn streamlit sweetviz 
 
-### 6.3 Fluid properties (2)
-- pip install open_petro_elastic 
+### 6.4 Finance
+- pip install QuantLib Riskfolio-Lib skfolio yfinance
+
+### 6.5 Fluid properties (2)
+- pip install open_petro_elastic CoolProp
 - pip install neqsim[interactive]
 
-### 6.4 Geomodelling (1)
+### 6.6 Geomodelling (1)
 - pip install gempy 
 
-### 6.4 Petrophysics (4)
+### 6.7 Material science
+- pip install pymatgen
+
+### 6.8 Mathematics 
+- pip install nimfa pytensor
+
+### 6.9 Petrophysics (4)
 - pip install dlisio lasio striplog welly 
 
-### 6.5 Rock physics (1)
+### 6.10 Rock physics (1)
 - pip install rockphypy 
+
+### 6.11 Time series analysis
+- pip install pmdarima prophet sktime tsmoothie
 
 ## 7. Jupyter Lab Launchers
 
