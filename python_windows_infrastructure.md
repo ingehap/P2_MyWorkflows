@@ -39,32 +39,31 @@ Workflow for making environments envxyz_CS_AI for Python interpreter Pythonxyz (
 ### 6.3 envxyz_CS_DV (Data Visualization)
 - pip install folium ipython jupyter notebook jupyterlab ipywidgets matplotlib seaborn streamlit sweetviz 
 
-### 6.3 envxyz_ES_GP (Geophysics)
+### 6.4 envxyz_ES_FP (Fluid Properties)
+- pip install open_petro_elastic CoolProp neqsim[interactive]
+
+### 6.5 envxyz_ES_GM (Geo Modelling)
+- pip install gempy
+- 
+### 6.6 envxyz_ES_GP (Geophysics)
 pip install segyio
 
-### 6.4 envxyz_F (Finance)
-- pip install QuantLib Riskfolio-Lib skfolio yfinance
-
-### 6.5 Fluid properties (2)
-- pip install open_petro_elastic CoolProp
-- pip install neqsim[interactive]
-
-### 6.6 Geomodelling (1)
-- pip install gempy 
-
-### 6.7 Material science
+### 6.7 envxyz_ES_MS (Material Science)
 - pip install pymatgen
 
-### 6.8 Mathematics 
-- pip install nimfa pytensor
+### 6.8 envxyz_ES_PP (Petrophysics)
+- pip install dlisio lasio striplog welly
 
-### 6.9 Petrophysics (4)
-- pip install dlisio lasio striplog welly 
-
-### 6.10 Rock physics (1)
+### 6.9 envxyz_ES_RP (Rock Physics)
 - pip install rockphypy 
 
-### 6.11 Time series analysis
+### 6.10 envxyz_F (Finance)
+- pip install QuantLib Riskfolio-Lib skfolio yfinance
+
+### 6.11 envxyz_M_LA (Linear Algebra) 
+- pip install nimfa pytensor
+
+### 6.12 envxyz_M_TSA (Time Series Analysis)
 - pip install pmdarima prophet sktime tsmoothie
 
 ## 7. Jupyter Lab Launchers
