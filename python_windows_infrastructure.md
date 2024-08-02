@@ -18,75 +18,79 @@ Python libraries for the basic interpreters are stored here (hidden by company s
 
 ## 3. Workflow
 
-Workflow for making environments envxyz_CS_AI for Python interpreter Pythonxyz (xyz = 310, 311, 312):
-- "C:\Program Files\Pythonxyz\python" -m venv C:\Appl\envxyz_CS_AI
-- C:\Appl\envxyz_CS_AI\Scripts\activate
+Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (xyz = 310, 311, 312 and NAME = CS_AI etc.):
+- "C:\Program Files\Pythonxyz\python" -m venv C:\Appl\envxyz_NAME
+- C:\Appl\envxyz_NAME\Scripts\activate
 - cd "C:\Program Files\Pythonxyz"
 - python -m pip install --upgrade pip
 - pip install list_of_libraries
 
 ## 4. Deactivate
-- C:\Appl\env312_CA_AI\Scripts\deactivate
+- C:\Appl\envxyz_NAME\Scripts\deactivate
 
-## 6. Libraries installed for various environments
+## 5. Libraries Installed for Various Environments
 
-### 6.1 envxyz_CS_AI (Artificial Intelligence)
+### 5.1 envxyz_CS_AI (Artificial Intelligence)
 - pip install catboost keras openai pycaret pykan sketch tensorflow torch torchvision torchaudio xgboost
 
-### 6.2 envxyz_CS_DA (Data Analysis)
+### 5.2 envxyz_CS_DA (Data Analysis)
 - pip install dtale giddy missingno numpy pandas pingouin polars pykrige ydata-profiling 
 
-### 6.3 envxyz_CS_DV (Data Visualization)
+### 5.3 envxyz_CS_DV (Data Visualization)
 - pip install folium ipython jupyter notebook jupyterlab ipywidgets matplotlib seaborn streamlit sweetviz 
 
-### 6.4 envxyz_ES_FP (Fluid Properties)
+### 5.4 envxyz_ES_FP (Fluid Properties)
 - pip install open_petro_elastic CoolProp neqsim[interactive]
 
-### 6.5 envxyz_ES_GM (Geo Modelling)
+### 5.5 envxyz_ES_GM (GeoModelling)
 - pip install gempy
 
-### 6.6 envxyz_ES_GP (Geophysics)
+### 5.6 envxyz_ES_GP (GeoPhysics)
 - pip install segyio
 
-### 6.7 envxyz_ES_MS (Material Science)
+### 5.7 envxyz_ES_MS (Material Science)
 - pip install pymatgen
 
-### 6.8 envxyz_ES_PP (Petrophysics)
+### 5.8 envxyz_ES_PP (PetroPhysics)
 - pip install dlisio lasio striplog welly
 
-### 6.9 envxyz_ES_RP (Rock Physics)
+### 5.9 envxyz_ES_RP (Rock Physics)
 - pip install rockphypy 
 
-### 6.10 envxyz_F (Finance)
+### 5.10 envxyz_F (Finance)
 - pip install QuantLib Riskfolio-Lib skfolio yfinance
 
-### 6.11 envxyz_M_LA (Linear Algebra) 
+### 5.11 envxyz_M_LA (Linear Algebra) 
 - pip install nimfa pytensor
 
-### 6.12 envxyz_M_TSA (Time Series Analysis)
+### 5.12 envxyz_M_TSA (Time Series Analysis)
 - pip install pmdarima prophet sktime tsmoothie
 
-## 7. Jupyter Lab Launchers
+## 6. Jupyter Lab Launchers
 
-Example with jupyter3.10.11.bat:
+Example with jupyteryxy_NAME.bat:
 ```python
-call "my_env3.10.11\Scripts\activate.bat"
+call "my_envxyz_NAME\Scripts\activate.bat"
 cd\ 
-cd "Users\inp\OneDrive - Equinor\python3.10.11"
+cd "Users\inp\OneDrive - Equinor\pythonxyz_NAME"
 jupyter lab
 ```
 
-## 8. Summary
+## 7. Summary
 
 The following infrastructure emerges based on the workflow above:
 
-| Python intepreter                     | Jupyter launcher           | OneDrive Work Area                           |
-| ------------------------------------- | -------------------------- | -------------------------------------------- |
-| C:\Program Files\Python310\python.exe | C:\Appl\jupyter3.10.11.bat | C:\user\inp\OneDrive - Equinor\python3.10.11 |
-| C:\Program Files\Python311\python.exe | C:\Appl\jupyter3.11.9.bat  | C:\user\inp\OneDrive - Equinor\python3.11.9  |
-| C:\Program Files\Python312\python.exe | C:\Appl\jupyter3.12.4.bat  | C:\user\inp\OneDrive - Equinor\python3.12.4  |
+| Python intepreter                     | 
+| ------------------------------------- | 
+| C:\Program Files\Python310\python.exe | 
+| C:\Program Files\Python311\python.exe |
+| C:\Program Files\Python312\python.exe | 
 
-## 9. Reference
+Jupyter launcher: C:\Appl\jupyterxyz_NAME.bat
+
+OneDrive Work Area: C:\User\inp\OneDrive - Equinor\pythonxyz_NAME
+
+## 8. Reference
 
 - https://docs.python.org/
 - https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDE0NDE4MiJ9/all
