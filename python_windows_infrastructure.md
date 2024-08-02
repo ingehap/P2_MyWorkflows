@@ -44,9 +44,9 @@ Workflow for making environments envxyz_CS_AI for Python interpreter Pythonxyz (
 
 ### 6.5 envxyz_ES_GM (Geo Modelling)
 - pip install gempy
-- 
+
 ### 6.6 envxyz_ES_GP (Geophysics)
-pip install segyio
+- pip install segyio
 
 ### 6.7 envxyz_ES_MS (Material Science)
 - pip install pymatgen
