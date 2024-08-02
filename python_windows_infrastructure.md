@@ -102,7 +102,11 @@ Jupyter launcher: C:\Appl\jupyterxyz_NAME.bat
 
 OneDrive Work Area: C:\User\inp\OneDrive - Equinor\pythonxyz_NAME
 
-## 8. Reference
+## 8. A Requirement File for Environment my_envxyz_NAME
+
+The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
+
+## 9. Reference
 
 - https://docs.python.org/
 - https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDE0NDE4MiJ9/all
@@ -111,7 +115,3 @@ OneDrive Work Area: C:\User\inp\OneDrive - Equinor\pythonxyz_NAME
 - https://wiki.equinor.com/wiki/Software:Python_coding_standard
 - https://wiki.equinor.com/wiki/Software:Python_Scientific
 
-
-## Appendix A - A Requirement File for Environment my_envxyz_NAME
-
-The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
