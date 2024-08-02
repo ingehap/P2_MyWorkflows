@@ -100,6 +100,6 @@ OneDrive Work Area: C:\User\inp\OneDrive - Equinor\pythonxyz_NAME
 - https://wiki.equinor.com/wiki/Software:Python_Scientific
 
 
-## Appendix A - Requirement file for environment my_envxyz_NAME
+## Appendix A - A Requirement File for Environment my_envxyz_NAME
 
-The resulting file of running "pip freeze > requirementsxyz_NAME.txt" is attached.
+The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
