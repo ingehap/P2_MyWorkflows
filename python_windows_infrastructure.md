@@ -82,9 +82,8 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 
 Example with jupyteryxy_NAME.bat:
 ```python
-call "my_envxyz_NAME\Scripts\activate.bat"
-cd\ 
-cd "Users\inp\OneDrive - Equinor\pythonxyz_NAME"
+call "C:\Appl\envxyz_NAME\Scripts\activate.bat"
+cd "C:\Users\inp\OneDrive - Equinor\pythonxyz"
 jupyter lab
 ```
 
