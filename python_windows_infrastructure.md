@@ -79,3 +79,4 @@ The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 - https://wiki.equinor.com/wiki/Software:Python
 - https://wiki.equinor.com/wiki/Software:Python_coding_standard
 - https://wiki.equinor.com/wiki/Software:Python_Scientific
+- [Viva Engage - Subscript](https://engage.cloud.microsoft/main/org/statoil.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI3MjM0NTE3In0/all)
