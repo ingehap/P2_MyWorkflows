@@ -30,53 +30,20 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 
 ## 5. Libraries Installed for Various Environments
 
-### 5.1 envxyz_CS_AI (Artificial Intelligence)
-- pip install catboost keras openai pycaret pykan sketch tensorflow torch torchvision torchaudio xgboost
-- pip install jupyterlab
-
-### 5.2 envxyz_CS_DA (Data Analysis)
-- pip install dtale giddy missingno numpy pandas pingouin polars pykrige ydata-profiling 
-- pip install jupyterlab
-
-### 5.3 envxyz_CS_DV (Data Visualization)
-- pip install folium ipywidgets matplotlib seaborn streamlit sweetviz 
-- pip install jupyterlab
-
-### 5.4 envxyz_ES_FP (Fluid Properties)
-- pip install open_petro_elastic CoolProp neqsim[interactive]
-- pip install jupyterlab
-
-### 5.5 envxyz_ES_GM (GeoModelling)
-- pip install gempy
-- pip install jupyterlab
-
-### 5.6 envxyz_ES_GP (GeoPhysics)
-- pip install segyio
-- pip install jupyterlab
-
-### 5.7 envxyz_ES_MS (Material Science)
-- pip install pymatgen
-- pip install jupyterlab
-
-### 5.8 envxyz_ES_PP (PetroPhysics)
-- pip install dlisio lasio striplog welly
-- pip install jupyterlab
-
-### 5.9 envxyz_ES_RP (Rock Physics)
-- pip install rockphypy 
-- pip install jupyterlab
-
-### 5.10 envxyz_F (Finance)
-- pip install QuantLib Riskfolio-Lib skfolio yfinance
-- pip install jupyterlab
-
-### 5.11 envxyz_M_LA (Linear Algebra) 
-- pip install nimfa pytensor
-- pip install jupyterlab
-
-### 5.12 envxyz_M_TSA (Time Series Analysis)
-- pip install pmdarima prophet sktime tsmoothie
-- pip install jupyterlab
+| *Env Name    | *Topic*             | *Size (GB)* | *Libraries*                                                                                           |
+| ------------ | ------------------- | ----------- | ----------------------------------------------------------------------------------------------------- |
+| env312_CS_AI | AI                  | 4.4         | catboost keras openai pycaret pykan sketch tensorflow torch torchvision torchaudio xgboost jupyterlab |
+| env312_CS_DA | Data Analysis       | 1.5         | dtale giddy missingno numpy pandas pingouin polars pykrige ydata-profiling jupyterlab                 |
+| env312_CS_DV | Data Visualization  | 0.8         | folium ipywidgets matplotlib seaborn streamlit sweetviz jupyterlab                                    |
+| env312_ES_FP | Fluid Properties    | 0.8         | open_petro_elastic CoolProp neqsim[interactive] jupyterlab                                            |
+| env312_ES_GM | GeoModelling        | 0.3         | gempy jupyterlab                                                                                      |
+| env312_ES_GP | GeoPhysics          | 0.3         | segyio jupyterlab                                                                                     |
+| env312_ES_MS | Material Science    | 0.8         | pymatgen jupyterlab                                                                                   |
+| env312_ES_PP | PetroPhysics        | 0.6         | dlisio lasio striplog welly jupyterlab                                                                |
+| env312_ES_RP | Rock Physics        | 0.6         | rockphypy jupyterlab                                                                                  |
+| env312_F     | Finance             | 0.9         | QuantLib Riskfolio-Lib skfolio yfinance jupyterlab                                                    |
+| env312_M_LA  | Linear Algebra      | 0.5         | nimfa pytensor jupyterlab                                                                             |
+| env312_M_TSA |Time Series Analysis | 0.8         | pmdarima prophet sktime tsmoothie jupyterlab                                                          |
 
 ## 6. Jupyter Lab Launchers
 
