@@ -60,6 +60,7 @@ The following infrastructure emerges based on the workflow above:
 
 | *Item*              | *Implementations*                             |
 | ------------------- | --------------------------------------------- |
+| Data Storage Area   | D:\Data\                                      |
 | GitHub DeskTop      | D:\GitHub.lnk                                 |
 | Jupyter launchers   | C:\Appl\jupyterxyz_NAME.bat                   |
 | OneDrive Work Areas | C:\User\inp\OneDrive - Equinor\pythonxyz_NAME |
