@@ -58,12 +58,6 @@ jupyter lab
 
 The following infrastructure emerges based on the workflow above:
 
-| Python intepreter                     | 
-| ------------------------------------- | 
-| C:\Program Files\Python310\python.exe | 
-| C:\Program Files\Python311\python.exe |
-| C:\Program Files\Python312\python.exe | 
-
 Jupyter launcher: C:\Appl\jupyterxyz_NAME.bat
 
 OneDrive Work Area: C:\User\inp\OneDrive - Equinor\pythonxyz_NAME
@@ -80,4 +74,3 @@ The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 - https://wiki.equinor.com/wiki/Software:Python
 - https://wiki.equinor.com/wiki/Software:Python_coding_standard
 - https://wiki.equinor.com/wiki/Software:Python_Scientific
-
