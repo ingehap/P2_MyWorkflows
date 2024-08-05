@@ -75,6 +75,7 @@ The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 - https://docs.python.org/
 - https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDE0NDE4MiJ9/all
 - https://wiki.equinor.com/wiki/OpenServer
+- https://wiki.equinor.com/wiki/ResScript
 - https://wiki.equinor.com/wiki/Software:Python
 - https://wiki.equinor.com/wiki/Software:Python_coding_standard
 - https://wiki.equinor.com/wiki/Software:Python_Scientific
