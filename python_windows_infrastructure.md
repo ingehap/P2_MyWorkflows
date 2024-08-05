@@ -30,7 +30,7 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 
 ## 5. Libraries Installed for Various Environments
 
-| *Env Name    | *Topic*             | *Size (GB)* | *Libraries*                                                                                           |
+| *Env Name*   | *Topic*             | *Size (GB)* | *Libraries*                                                                                           |
 | ------------ | ------------------- | ----------- | ----------------------------------------------------------------------------------------------------- |
 | env312_CS_AI | AI                  | 4.4         | catboost keras openai pycaret pykan sketch tensorflow torch torchvision torchaudio xgboost jupyterlab |
 | env312_CS_DA | Data Analysis       | 1.5         | dtale giddy missingno numpy pandas pingouin polars pykrige ydata-profiling jupyterlab                 |
@@ -58,9 +58,11 @@ jupyter lab
 
 The following infrastructure emerges based on the workflow above:
 
-Jupyter launcher: C:\Appl\jupyterxyz_NAME.bat
-
-OneDrive Work Area: C:\User\inp\OneDrive - Equinor\pythonxyz_NAME
+| *Item*              | *Implementations*                             |
+| ------------------- | --------------------------------------------- |
+| Jupyter launchers   | C:\Appl\jupyterxyz_NAME.bat                   |
+| OneDrive Work Areas | C:\User\inp\OneDrive - Equinor\pythonxyz_NAME |
+| REPLs               | D:\pythonxyz.lnk                              |
 
 ## 8. A Requirement File for Environment my_envxyz_NAME
 
