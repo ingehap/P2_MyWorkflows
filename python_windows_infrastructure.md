@@ -80,3 +80,17 @@ The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 - [Slack, Python channel](https://app.slack.com/client/T02JL00JU/C68CNC0M7)
 - [Viva Engage - Python](https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDE0NDE4MiJ9/all)
 - [Viva Engage - Subscript](https://engage.cloud.microsoft/main/org/statoil.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI3MjM0NTE3In0/all)
+
+## Appendix A - Windows Environment Variables
+
+Use Windows Search Toolbar to search for var/edit the system environment variables. The following variables have been set to values.
+
+| *Variable*          | *Value*                                       |
+| ------------------- | --------------------------------------------- |
+| ORACLE_HOME         | C:\oracle12                                   |
+| LD_LIBRARY_PATH     | C:\oracle12\ora19_64\lib:$LD_LIBRARY_PATH     |
+| OneDrive            | C:\Users\inp\OneDrive - Equinor               |
+| OneDrive Commercial | C:\Users\inp\OneDrive - Equinor               |
+| TEMP                | C:\Users\inp\AppData\Local\Temp               |
+| TMP                 | C:\Users\inp\AppData\Local\Temp               |
+
