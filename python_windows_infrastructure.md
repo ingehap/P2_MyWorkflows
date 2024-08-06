@@ -30,20 +30,20 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 
 ## 5. Libraries Installed for Various Environments
 
-| *Env Name*   | *Topic*             | *Size (GB)* | *Libraries*                                                                                           |
-| ------------ | ------------------- | ----------- | ----------------------------------------------------------------------------------------------------- |
-| env312_CS_AI | AI                  | 4.4         | catboost keras openai pycaret pykan sketch tensorflow torch torchvision torchaudio xgboost jupyterlab |
-| env312_CS_DA | Data Analysis       | 1.5         | dtale giddy missingno numpy pandas pingouin polars pykrige ydata-profiling jupyterlab                 |
-| env312_CS_DV | Data Visualization  | 0.8         | folium ipywidgets matplotlib seaborn streamlit sweetviz jupyterlab                                    |
-| env312_ES_FP | Fluid Properties    | 0.8         | open_petro_elastic CoolProp neqsim[interactive] jupyterlab                                            |
-| env312_ES_GM | GeoModelling        | 0.3         | gempy jupyterlab                                                                                      |
-| env312_ES_GP | GeoPhysics          | 0.3         | segyio jupyterlab                                                                                     |
-| env312_ES_MS | Material Science    | 0.8         | pymatgen jupyterlab                                                                                   |
-| env312_ES_PP | PetroPhysics        | 0.6         | dlisio lasio striplog welly jupyterlab                                                                |
-| env312_ES_RP | Rock Physics        | 0.6         | rockphypy jupyterlab                                                                                  |
-| env312_F     | Finance             | 0.9         | QuantLib Riskfolio-Lib skfolio yfinance jupyterlab                                                    |
-| env312_M_LA  | Linear Algebra      | 0.5         | nimfa pytensor jupyterlab                                                                             |
-| env312_M_TSA |Time Series Analysis | 0.8         | pmdarima prophet sktime tsmoothie jupyterlab                                                          |
+| *Env Name*   | *Topic*             | *Size (GB)* | *Libraries*                                                                                                        |
+| ------------ | ------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------ |
+| env312_CS_AI | AI                  | 4.4         | catboost keras openai pycaret pykan scikit-learn sketch tensorflow torch torchvision torchaudio xgboost jupyterlab |
+| env312_CS_DA | Data Analysis       | 1.5         | dtale giddy missingno numpy pandas pingouin polars pykrige pylops scipy ydata-profiling jupyterlab                 |
+| env312_CS_DV | Data Visualization  | 0.8         | dash folium ipywidgets matplotlib plotly seaborn streamlit sweetviz webviz jupyterlab                              |
+| env312_ES_FP | Fluid Properties    | 0.8         | open_petro_elastic CoolProp neqsim[interactive] jupyterlab                                                         |
+| env312_ES_GM | GeoModelling        | 0.3         | gempy jupyterlab                                                                                                   |
+| env312_ES_GP | GeoPhysics          | 0.3         | pysand segyio jupyterlab                                                                                           |
+| env312_ES_MS | Material Science    | 0.8         | pymatgen jupyterlab                                                                                                |
+| env312_ES_PP | PetroPhysics        | 0.6         | dlisio lasio striplog welly jupyterlab                                                                             |
+| env312_ES_RP | Rock Physics        | 0.6         | rockphypy jupyterlab                                                                                               |
+| env312_F     | Finance             | 0.9         | QuantLib Riskfolio-Lib skfolio yfinance jupyterlab                                                                 |
+| env312_M_LA  | Linear Algebra      | 0.5         | nimfa pytensor jupyterlab                                                                                          |
+| env312_M_TSA |Time Series Analysis | 0.8         | pmdarima prophet sktime tsmoothie jupyterlab                                                                       |
 
 ## 6. Jupyter Lab Launchers
 
@@ -71,6 +71,8 @@ The following infrastructure emerges based on the workflow above:
 The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 
 ## 9. Reference
+- [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
+- [CodeAcademy](https://www.codecademy.com/)
 - [Equinor Wiki - OpenServer](https://wiki.equinor.com/wiki/OpenServer)
 - [Equinor Wiki - ResScript](https://wiki.equinor.com/wiki/ResScript)
 - [Equinor Wiki - Software:Python](https://wiki.equinor.com/wiki/Software:Python)
@@ -83,7 +85,7 @@ The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 
 ## Appendix A - Windows Environment Variables
 
-Use Windows Search Toolbar to search for var/edit the system environment variables. The following variables have been set to values.
+Use Windows Search Toolbar to search for var/edit the system environment variables. The following variables have been set:
 
 | *Variable*          | *Value*                                       |
 | ------------------- | --------------------------------------------- |
@@ -93,4 +95,13 @@ Use Windows Search Toolbar to search for var/edit the system environment variabl
 | OneDrive Commercial | C:\Users\inp\OneDrive - Equinor               |
 | TEMP                | C:\Users\inp\AppData\Local\Temp               |
 | TMP                 | C:\Users\inp\AppData\Local\Temp               |
+
+## Appendix B - Useful Windows commands related to Python
+
+| *Command*               | *Meaning*                        |
+| ----------------------- | -------------------------------- |
+| pip --version           | Version of pip                   |
+| python -m venv ENV_NAME | Make an environment              |
+| where python            | Location of Python intepreter    |
+
 
