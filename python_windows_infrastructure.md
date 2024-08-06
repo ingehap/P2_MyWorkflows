@@ -34,7 +34,9 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 | ------------ | ------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------ |
 | env312_CS_AI | AI                  | 4.4         | catboost keras openai pycaret pykan scikit-learn sketch tensorflow torch torchvision torchaudio xgboost jupyterlab |
 | env312_CS_DA | Data Analysis       | 1.5         | dtale giddy missingno numpy pandas pingouin polars pykrige pylops scipy ydata-profiling jupyterlab                 |
+| env312_CS_DB | Database            |             | beautifulsoup4 oracledb openserver pyodbc SQLAlchemy tagreader jupyterlab                                          |
 | env312_CS_DV | Data Visualization  | 0.8         | dash folium ipywidgets matplotlib plotly seaborn streamlit sweetviz webviz jupyterlab                              |
+| env312_CS_WR | Code Wrapper        | 0.8         | cython                                                                                                             |
 | env312_ES_FP | Fluid Properties    | 0.8         | open_petro_elastic CoolProp neqsim[interactive] jupyterlab                                                         |
 | env312_ES_GM | GeoModelling        | 0.3         | gempy jupyterlab                                                                                                   |
 | env312_ES_GP | GeoPhysics          | 0.3         | pysand segyio jupyterlab                                                                                           |
