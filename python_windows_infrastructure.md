@@ -71,13 +71,12 @@ The following infrastructure emerges based on the workflow above:
 The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 
 ## 9. Reference
-
-- https://docs.python.org/
-- https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDE0NDE4MiJ9/all
-- https://wiki.equinor.com/wiki/OpenServer
-- https://wiki.equinor.com/wiki/ResScript
-- https://wiki.equinor.com/wiki/Software:Python
-- https://wiki.equinor.com/wiki/Software:Python_coding_standard
-- https://wiki.equinor.com/wiki/Software:Python_Scientific
+- [Equinor Wiki - OpenServer](https://wiki.equinor.com/wiki/OpenServer)
+- [Equinor Wiki - ResScript](https://wiki.equinor.com/wiki/ResScript)
+- [Equinor Wiki - Software:Python](https://wiki.equinor.com/wiki/Software:Python)
+- [Equinor Wiki - Software:Python_coding_standard](https://wiki.equinor.com/wiki/Software:Python_coding_standard)
+- [Equinor Wiki - Software:Python_Scientific](https://wiki.equinor.com/wiki/Software:Python_Scientific)
+- [Python, Official Documentation](https://docs.python.org/)
+- [Slack, Python channel](https://app.slack.com/client/T02JL00JU/C68CNC0M7)
 - [Viva Engage - Python](https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDE0NDE4MiJ9/all)
 - [Viva Engage - Subscript](https://engage.cloud.microsoft/main/org/statoil.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI3MjM0NTE3In0/all)
