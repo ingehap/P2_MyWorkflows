@@ -85,7 +85,7 @@ The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 
 ## Appendix B - Problems with installation
 
-When installing the geoscience libraries pygcc and pygmi I get the following error message below.
+When installing the geoscience libraries pygcc and pygmi I get the following error message:
 ```cpp
 Microsoft Visual C++ 14.0 or greater is required.
 Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
