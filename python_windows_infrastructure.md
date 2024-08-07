@@ -41,6 +41,7 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 | env312_ES_GS | GeoScience          | 0.3         | burnman dlisio gempy geoapps georunes geostatspy lasio pysand rockphypy segyio striplog welly jupyterlab           |
 | env312_ES_MS | Material Science    | 0.8         | pymatgen jupyterlab                                                                                                |
 | env312_F     | Finance             | 0.9         | QuantLib QuantStats Riskfolio-Lib skfolio yfinance jupyterlab                                                      |
+| env312_M     | Mathematics         | 0.5         | nimfa pmdarima prophet pytensor sktime smoothie jupyterlab                                                         |
 | env312_M_LA  | Linear Algebra      | 0.5         | nimfa pytensor jupyterlab                                                                                          |
 | env312_M_TSA |Time Series Analysis | 0.8         | pmdarima prophet sktime tsmoothie jupyterlab                                                                       |
 
