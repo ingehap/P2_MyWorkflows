@@ -36,7 +36,7 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 | env312_CS_DA | Data Analysis       | 1.5         | dtale giddy missingno numpy pandas pingouin polars pykrige pylops scipy ydata-profiling jupyterlab                 |
 | env312_CS_DB | Database            |             | beautifulsoup4 oracledb openserver pyodbc SQLAlchemy tagreader jupyterlab                                          |
 | env312_CS_DV | Data Visualization  | 0.8         | dash folium ipywidgets matplotlib plotly seaborn streamlit sweetviz webviz jupyterlab                              |
-| env312_CS_WR | Code Wrapper        | 0.8         | cython                                                                                                             |
+| env312_CS_WR | Code Wrapper        | 0.8         | cython jupyterlab                                                                                                  |
 | env312_ES_FP | Fluid Properties    | 0.8         | open_petro_elastic CoolProp neqsim[interactive] jupyterlab                                                         |
 | env312_ES_GM | GeoModelling        | 0.3         | gempy jupyterlab                                                                                                   |
 | env312_ES_GP | GeoPhysics          | 0.3         | pysand segyio jupyterlab                                                                                           |
@@ -85,7 +85,11 @@ The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 - [Viva Engage - Python](https://engage.cloud.microsoft/main/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMDE0NDE4MiJ9/all)
 - [Viva Engage - Subscript](https://engage.cloud.microsoft/main/org/statoil.com/groups/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiI3MjM0NTE3In0/all)
 
-## Appendix A - Windows Environment Variables
+## Appendix A - Metadata about Python libraries
+
+
+
+## Appendix B - Windows Environment Variables
 
 Use Windows Search Toolbar to search for var/edit the system environment variables. The following variables have been set:
 
@@ -98,7 +102,7 @@ Use Windows Search Toolbar to search for var/edit the system environment variabl
 | TEMP                | C:\Users\inp\AppData\Local\Temp               |
 | TMP                 | C:\Users\inp\AppData\Local\Temp               |
 
-## Appendix B - Useful Windows commands related to Python
+## Appendix C - Useful Windows commands related to Python
 
 | *Command*               | *Meaning*                        |
 | ----------------------- | -------------------------------- |
