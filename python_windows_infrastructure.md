@@ -38,11 +38,8 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 | env312_CS_DV | Data Visualization  | 0.8         | dash folium ipywidgets matplotlib plotly seaborn streamlit sweetviz webviz jupyterlab                              |
 | env312_CS_WR | Code Wrapper        | 0.8         | cython jupyterlab                                                                                                  |
 | env312_ES_FP | Fluid Properties    | 0.8         | open_petro_elastic CoolProp neqsim[interactive] jupyterlab                                                         |
-| env312_ES_GM | GeoModelling        | 0.3         | gempy jupyterlab                                                                                                   |
-| env312_ES_GP | GeoPhysics          | 0.3         | pysand segyio jupyterlab                                                                                           |
+| env312_ES_GS | GeoScience          | 0.3         | dlisio gempy lasio pysand rockphypy segyio striplog welly jupyterlab                                               |
 | env312_ES_MS | Material Science    | 0.8         | pymatgen jupyterlab                                                                                                |
-| env312_ES_PP | PetroPhysics        | 0.6         | dlisio lasio striplog welly jupyterlab                                                                             |
-| env312_ES_RP | Rock Physics        | 0.6         | rockphypy jupyterlab                                                                                               |
 | env312_F     | Finance             | 0.9         | QuantLib QuantStats Riskfolio-Lib skfolio yfinance jupyterlab                                                      |
 | env312_M_LA  | Linear Algebra      | 0.5         | nimfa pytensor jupyterlab                                                                                          |
 | env312_M_TSA |Time Series Analysis | 0.8         | pmdarima prophet sktime tsmoothie jupyterlab                                                                       |
