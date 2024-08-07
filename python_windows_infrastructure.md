@@ -84,9 +84,13 @@ The resulting file of running "pip freeze > requirementsxyz_NAME.txt".
 
 ## Appendix A - Metadata about Python libraries
 
+## Appendix B - Problems with installation
 
+For the geoscience libraries pygcc and pygmi I get the error message below.
 
-## Appendix B - Windows Environment Variables
+Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+## Appendix C - Windows Environment Variables
 
 Use Windows Search Toolbar to search for var/edit the system environment variables. The following variables have been set:
 
@@ -99,7 +103,7 @@ Use Windows Search Toolbar to search for var/edit the system environment variabl
 | TEMP                | C:\Users\inp\AppData\Local\Temp               |
 | TMP                 | C:\Users\inp\AppData\Local\Temp               |
 
-## Appendix C - Useful Windows commands related to Python
+## Appendix D - Useful Windows commands related to Python
 
 | *Command*               | *Meaning*                        |
 | ----------------------- | -------------------------------- |
