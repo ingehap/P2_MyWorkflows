@@ -43,7 +43,7 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 | env312_ES_MS | Material Science    | 0.8         | pymatgen jupyterlab                                                                                                |
 | env312_ES_PP | PetroPhysics        | 0.6         | dlisio lasio striplog welly jupyterlab                                                                             |
 | env312_ES_RP | Rock Physics        | 0.6         | rockphypy jupyterlab                                                                                               |
-| env312_F     | Finance             | 0.9         | QuantLib Riskfolio-Lib skfolio yfinance jupyterlab                                                                 |
+| env312_F     | Finance             | 0.9         | QuantLib QuantStats Riskfolio-Lib skfolio yfinance jupyterlab                                                      |
 | env312_M_LA  | Linear Algebra      | 0.5         | nimfa pytensor jupyterlab                                                                                          |
 | env312_M_TSA |Time Series Analysis | 0.8         | pmdarima prophet sktime tsmoothie jupyterlab                                                                       |
 
