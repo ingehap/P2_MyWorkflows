@@ -1,13 +1,14 @@
-# Infrastructure for Python on Windows
+# Infrastructure for Python and Julia on Windows 10
 
 If libraries have not been included yet, a comment saying so will be added.
 
-## 1. Python interpreters
+## 1. Python and Julia interpreters
 
-Python interpreters are located here:
+Python and Julia interpreters are located here:
 - C:\Program Files\Python310
 - C:\Program Files\Python311
 - C:\Program Files\Python312
+- C:\Users\inp\AppData\Local\Programs\Julia-1.10.4\bin\julia.exe
 
 ## 2. Storage of Libraries
 
@@ -29,6 +30,8 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 - C:\Appl\envxyz_NAME\Scripts\deactivate
 
 ## 5. Libraries Installed for Various Environments
+
+For the moment, I have the following ten environments to ten subject-specific topics:
 
 | *Env Name*   | *Topic*             | *Size (GB)* | *Libraries*                                                                                                        |
 | ------------ | ------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -56,13 +59,15 @@ jupyter lab
 
 The following infrastructure emerges based on the workflow above:
 
-| *Item*              | *Implementations*                             |
-| ------------------- | --------------------------------------------- |
-| Data Storage Area   | D:\Data\                                      |
-| GitHub DeskTop      | D:\GitHub.lnk                                 |
-| Jupyter launchers   | C:\Appl\jupyterxyz_NAME.bat                   |
-| OneDrive Work Areas | C:\User\inp\OneDrive - Equinor\pythonxyz_NAME |
-| REPLs               | D:\pythonxyz.lnk                              |
+| *Item*                  | *Implementations*                             |
+| ----------------------- | --------------------------------------------- |
+| Environments for Python | C:\Appl\envxyz_NAME                           |
+| Jupyter launchers       | C:\Appl\jupyterxyz_NAME.bat                   |
+| OneDrive Work Areas     | C:\User\inp\OneDrive - Equinor\pythonxyz_NAME |
+| Data Storage Area       | D:\Data\                                      |
+| GitHub DeskTop          | D:\GitHub.lnk                                 |
+| REPL for Julia          | D:\Julia 1.10.4.lnk                           |
+| REPLs for Python        | D:\pythonxyz.lnk                              |
 
 ## 8. A Requirement File for Environment my_envxyz_NAME
 
