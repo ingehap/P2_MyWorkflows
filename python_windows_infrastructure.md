@@ -1,7 +1,5 @@
 # Infrastructure for Python and Julia on Windows 10
 
-If libraries have not been included yet, a comment saying so will be added.
-
 ## 1. Python and Julia interpreters
 
 Python and Julia interpreters are located here:
