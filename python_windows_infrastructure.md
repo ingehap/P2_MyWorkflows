@@ -29,22 +29,34 @@ Workflow for making environments envxyz_NAME for Python interpreter Pythonxyz (x
 ## 4. Deactivate
 - C:\Appl\envxyz_NAME\Scripts\deactivate
 
-## 5. Libraries Installed for Various Environments
+## 5. Python Libraries Installed for Various Environments
+
+### 5.1 Overview
 
 For the moment, I have the following ten environments to ten subject-specific topics:
 
-| *Env Name*   | *Topic*             | *Size (GB)* | *Libraries*                                                                                                        |
+| Env Name     | Topic               | Size (GB)   |  Libraries                                                                                                         |
 | ------------ | ------------------- | ----------- | ------------------------------------------------------------------------------------------------------------------ |
 | env312_CS_AI | AI                  | 4.4         | catboost keras openai pycaret pykan scikit-learn sketch tensorflow torch torchvision torchaudio xgboost jupyterlab |
 | env312_CS_DA | Data Analysis       | 1.5         | dtale giddy missingno numpy pandas pingouin polars pykrige pylops scipy ydata-profiling jupyterlab                 |
-| env312_CS_DB | Database            | 0.8         | beautifulsoup4 oracledb openserver pyodbc SQLAlchemy tagreader jupyterlab                                          |
-| env312_CS_DV | Data Visualization  | 0.8         | dash folium ipywidgets matplotlib plotly seaborn streamlit sweetviz webviz jupyterlab                              |
-| env312_CS_WR | Code Wrapper        | 0.8         | cython jupyterlab                                                                                                  |
+| env312_CS_DB | Database            | 0.4         | beautifulsoup4 oracledb openserver pyodbc SQLAlchemy tagreader jupyterlab                                          |
+| env312_CS_DV | Data Visualization  | 0.9         | dash folium ipywidgets matplotlib plotly seaborn streamlit sweetviz webviz jupyterlab                              |
+| env312_CS_WR | Code Wrapper        | 0.2         | cython jupyterlab                                                                                                  |
 | env312_ES_FP | Fluid Properties    | 0.8         | open_petro_elastic CoolProp neqsim[interactive] jupyterlab                                                         |
-| env312_ES_GS | GeoScience          | 0.3         | burnman dlisio gempy geoapps georunes geostatspy lasio pysand rockphypy segyio striplog welly jupyterlab           |
+| env312_ES_GS | GeoScience          | 0.8         | burnman dlisio gempy geoapps georunes geostatspy lasio pysand rockphypy segyio striplog welly jupyterlab           |
 | env312_ES_MS | Material Science    | 0.8         | pymatgen jupyterlab                                                                                                |
 | env312_F     | Finance             | 0.9         | QuantLib QuantStats Riskfolio-Lib skfolio yfinance jupyterlab                                                      |
-| env312_M     | Mathematics         | 0.5         | nimfa pmdarima prophet pytensor sktime smoothie sympy jupyterlab                                                   |
+| env312_M     | Mathematics         | 0.9         | nimfa pmdarima prophet pytensor sktime smoothie sympy jupyterlab                                                   |
+
+### 5.2 Links to documentation and GitHub
+
+| Library            | Documentation                                        | GitHub                                                 |
+| ------------------ | ---------------------------------------------------- | ------------------------------------------------------ |
+| catboost           | [Link](https://catboost.ai)                          | [Link](https://github.com/catboost)                    |
+| keras              | [Link](https://keras.io)                             | [Link](https://github.com/keras-team/keras)            |
+| open_petro_elastic | [Link](https://equinor.github.io/open_petro_elastic) | [Link](https://github.com/equinor/open_petro_elastic)  |
+| openai             | [Link](https://platform.openai.com/docs/overview)    | [Link](https://github.com/openai/openai-python)        |
+| yfinance           | [Link](https://aroussi.com/tag/yfinance)             | [Link](https://github.com/ranaroussi/yfinance)         |
 
 ## 6. Jupyter Lab Launchers
 
